@@ -1,0 +1,12 @@
+spring:
+ application:
+  name: customer
+ datasource:
+  url: jdbc:mysql://localhost:3306/db_commerce
+  username: root
+  password: fiap
+  driverClassName: com.mysql.jdbc.Driver
+ jpa:
+  show-sql: true
+server: 
+ port: 9090
